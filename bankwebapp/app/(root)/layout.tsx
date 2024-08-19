@@ -14,9 +14,9 @@ export default function RootLayout({
        <Sidebar user={loggedIn}/>
        <div className="flex size-full flex-col">
         <div className="root-layout">
-          <Image src="/icons/logo.svg" width={30} height={30} alt="logo" />
+          <Image src="/icons/logo.svg" width={30} height={30} alt="menu icon" />
           <div>
-            <MobileNav user={loggedIn}/>
+            <MobileNav />
           </div>
         </div>
         {children}
